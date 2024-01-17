@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        "hw_11_01_2024"
+    </assembly>
+    <members>
+        <member name="M:Student.GetExamRates(System.UInt32)">
+            <summary>
+Получает оценку за экзамен по указанному индексу
+</summary>
+            <param name="index">Индекс оценки за экзамен</param>
+            <returns>Оценка за экзамен</returns>
+        </member>
+        <member name="M:Student.PrintExam">
+            <summary>
+Выводит оценки за экзамены
+</summary>
+        </member>
+        <member name="M:Student.AddExam(System.Int32)">
+            <summary>
+Добавляет оценку за экзамен
+</summary>
+            <param name="grade">Оценка за экзамен</param>
+Exam
+</member>
+        <member name="M:Student.GetHWRates(System.UInt32)">
+            <summary>
+Получает оценку за домашние задания по указанному индексу
+</summary>
+            <param name="index">Индекс оценки за домашние задания</param>
+            <returns>Оценка за домашние задания</returns>
+        </member>
+        <member name="M:Student.PrintHW">
+            <summary>
+Выводит оценки за домашние задания
+</summary>
+        </member>
+        <member name="M:Student.AddHW(System.Int32)">
+            <summary>
+Добавляет оценку за домашние задания
+</summary>
+            <param name="grade">Оценка за домашние задания</param>
+HW
+</member>
+        <member name="M:Student.GetPracticRates(System.UInt32)">
+            <summary>
+Получает оценку за практику по указанному индексу
+</summary>
+            <param name="index">Индекс оценки за практику</param>
+            <returns>Оценка за практику</returns>
+        </member>
+        <member name="M:Student.PrintPractic">
+            <summary>
+Выводит оценки за практику
+</summary>
+        </member>
+        <member name="M:Student.AddPractic(System.Int32)">
+            <summary>
+Добавляет оценку за практику
+</summary>
+            <param name="grade">Оценка за практику</param>
+Practic
+</member>
+        <member name="M:Student.GetPhoneNumber">
+            <summary>
+Получает номер телефона студента
+</summary>
+            <returns>Номер телефона студента</returns>
+        </member>
+        <member name="M:Student.GetAdress">
+            <summary>
+Получает адрес студента
+</summary>
+            <returns>Адрес студента</returns>
+        </member>
+        <member name="M:Student.GetPatronymic">
+            <summary>
+Получает отчество студента
+</summary>
+            <returns>Отчество студента</returns>
+        </member>
+        <member name="M:Student.GetName">
+            <summary>
+Получает имя студента
+</summary>
+            <returns>Имя студента</returns>
+        </member>
+        <member name="M:Student.GetSurname">
+            <summary>
+Получает фамилию студента
+</summary>
+            <returns>Фамилия студента</returns>
+        </member>
+        <member name="M:Student.SetPhoneNumber(std.basic_string&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte&gt;&gt;)">
+            <summary>
+Устанавливает номер телефона студента
+</summary>
+            <param name="phoneNumber">Номер телефона студента</param>
+        </member>
+        <member name="M:Student.SetAdress(std.basic_string&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte&gt;&gt;)">
+            <summary>
+Устанавливает адрес студента
+</summary>
+            <param name="adress">Адрес студента</param>
+        </member>
+        <member name="M:Student.SetPatronymic(std.basic_string&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte&gt;&gt;)">
+            <summary>
+Устанавливает отчество студента
+</summary>
+            <param name="patronymic">Отчество студента</param>
+        </member>
+        <member name="M:Student.SetName(std.basic_string&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte&gt;&gt;)">
+            <summary>
+Устанавливает имя студента
+</summary>
+            <param name="name">Имя студента</param>
+        </member>
+        <member name="M:Student.SetSurname(std.basic_string&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte&gt;&gt;)">
+            <summary>
+Устанавливает фамилию студента
+</summary>
+            <param name="surname">Фамилия студента</param>
+        </member>
+        <member name="M:Student.PrintStudent">
+            <summary>
+Выводит информацию о студенте
+</summary>
+        </member>
+        <member name="M:Student.Dispose">
+            <summary>
+Деструктор. Освобождает выделенную динамическую память
+</summary>
+        </member>
+        <member name="M:Student.#ctor(std.basic_string&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte&gt;&gt;,std.basic_string&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte&gt;&gt;,std.basic_string&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte&gt;&gt;,std.basi">
+            <summary>
+Конструктор с параметрами. Инициализирует объект Student с заданными значениями полей
+</summary>
+            <param name="surname">Фамилия студента</param>
+            <param name="name">Имя студента</param>
+            <param name="patronymic">Отчество студента</param>
+            <param name="adress">Адрес студента</param>
+            <param name="phoneNumber">Номер телефона студента</param>
+            <summary>
+Конструктор с параметрами. Инициализирует объект Student с заданными значениями полей,
+предоставляя значения по умолчанию для номера телефона
+</summary>
+            <param name="surname">Фамилия студента</param>
+            <param name="name">Имя студента</param>
+            <param name="patronymic">Отчество студента</param>
+            <param name="adress">Адрес студента</param>
+        </member>
+        <member name="M:Student.#ctor">
+            <summary>
+ Конструктор по умолчанию. Инициализирует объект Student без параметров
+</summary>
+        </member>
+    </members>
+</doc>
